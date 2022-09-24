@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_Section354">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A man committing any of the following acts – a demand or request for sexual favours; or showing pornography against the will of a woman; or making sexually coloured remarks, shall be guilty of the offence of sexual harassment, may be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both. In case of the first two and with imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+        style="@style/TextAppearance.AppCompat.Title"
+        />
+
+
+</LinearLayout>

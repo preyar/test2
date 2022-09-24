@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/bck"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/gradient"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="SAFE GUARD"
+                    android:textColor="@color/white"
+                    android:textSize="29dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stay Safe, Be Alert!!!"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/profile"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/profile"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txtprofile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/profile"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Nearby Police Station"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btnprofile"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/feedback"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/feedback"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txtfeedback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/feedback"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Articles"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btnfeedback"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/law"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/law"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txtlaw"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/law"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Laws"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btnlaw"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/tips"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/tips"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txttips"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tips"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Tips and Instructions"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btntips"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/complaint"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/complaint"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txtcomplaint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/complaint"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Make Complaint"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btncomplaint"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/permission"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/permission"></ImageView>
+
+                            <TextView
+                                android:id="@+id/txtpermission"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/permission"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:text="Permitted Apps"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <Button
+                                android:id="@+id/btnpermission"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"></Button>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>s
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

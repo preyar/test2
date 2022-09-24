@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppActivity">
+
+    <ImageView
+        android:id="@+id/ins9"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@drawable/playiticon" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="661dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="14dp"
+        android:checked="false"
+        android:clickable="true"
+        android:text="PLAYit"
+        android:textOff="Mic,Location,Storage Access Denied"
+        android:textOn="Mic,Location,Storage Access Granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins8"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="104dp"
+        app:srcCompat="@drawable/driveicon" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="90dp"
+        android:checked="false"
+        android:clickable="true"
+        android:text="Doctor Drive"
+        android:textOff="Mic,Location,Storage Access Denied"
+        android:textOn="Mic,Location,Storage Access Granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins7"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="171dp"
+        app:srcCompat="@drawable/pubgicon" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="160dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Battle Grounds Mobile India"
+        android:textOff="Mic,Location,Storage Access Denied"
+        android:textOn="Mic,Location,Storage Access Granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins6"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="240dp"
+        app:srcCompat="@drawable/googledriveicon" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="230dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Google Drive"
+        android:textOff="Storage Access denied"
+        android:textOn="Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins5"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="315dp"
+        app:srcCompat="@drawable/mxplayericon" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="301dp"
+        android:checked="false"
+        android:clickable="true"
+        android:text="MX Player"
+        android:textOff="Storage Access denied"
+        android:textOn="Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins4"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/netflixicon" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="375dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Netflix"
+        android:textOff="Storage Access denied"
+        android:textOn="Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins3"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="460dp"
+        app:srcCompat="@drawable/mapsicon" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="449dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="GoogleMaps"
+        android:textOff="Location Access denied"
+        android:textOn="Location Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins2"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="536dp"
+        app:srcCompat="@drawable/snapicon" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="527dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="SnapChat"
+        android:textOff="Camera,Microphone,Storage Access denied"
+        android:textOn="Camera,Microphone,Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/ins"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="614dp"
+        app:srcCompat="@drawable/instaicon" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="598dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Instagram"
+        android:textOff="Camera,Microphone,Storage Access denied"
+        android:textOn="Camera,Microphone,Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="669dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="FaceBook"
+        android:textOff="Camera,Microphone,Storage Access denied"
+        android:textOn="Camera,Microphone,Storage Access granted"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="348dp"
+        android:layout_marginBottom="683dp"
+        app:srcCompat="@drawable/fbicon" />
+
+</RelativeLayout>
